@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayMessageActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="427dp"
+        android:text="      Corneria, fourth planet of the Lylat System. The evil Andross turned this once thriving system into a wasteland of near extinction. General Pepper of the Cornerian army was successful in exiling this maniacal scientist to the barren, deserted planet Venom. Five years later, General Pepper noticed strange activity coming from Venom. James McCloud, Pigma Dengar, and Peppy Hare of the Star Fox team were sent to investigate. Upon their arrival, Pigma betrayed the team and James and Peppy were captured by Andross. Peppy barely escaped Venom and returned home to tell James' son Fox about his father's fate. A few years have passed. Andross has again invaded the Lylat system. General Pepper has turned to a new Star Fox team headed by Fox McCloud to save Corneria and to free the Lylat System once again.           PRESS START"
+        android:textAllCaps="false"
+        android:textSize="6sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
